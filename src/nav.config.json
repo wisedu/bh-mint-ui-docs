@@ -57,6 +57,10 @@
       {
         "path": "/index-list",
         "name": "Index List"
+      },
+      {
+        "path": "/calendar",
+        "name": "Calendar"
       }
     ]
   },

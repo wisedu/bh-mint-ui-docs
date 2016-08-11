@@ -100,6 +100,11 @@ router.map({
     language: 'zh-cn',
     component: resolve => require(['./pages/zh-cn/index-list.md'], resolve)
   },
+  '/zh-cn/calendar': {
+    title: 'Calendar',
+    language: 'zh-cn',
+    component: resolve => require(['./pages/zh-cn/calendar.md'], resolve)
+  },
   '/zh-cn/header': {
     title: 'Header',
     language: 'zh-cn',
@@ -244,6 +249,11 @@ router.map({
     title: 'Index List',
     language: 'en',
     component: resolve => require(['./pages/en/index-list.md'], resolve)
+  },
+  '/en/calendar': {
+    title: 'Calendar',
+    language: 'en',
+    component: resolve => require(['./pages/en/calendar.md'], resolve)
   },
   '/en/header': {
     title: 'Header',

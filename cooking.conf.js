@@ -15,7 +15,7 @@ cooking.set({
   // production
   clean: true,
   hash: true,
-  publicPath: '/docs/',
+  publicPath: '/bh-mint-ui-docs/',
   assetsPath: 'static',
   urlLoaderLimit: 10000,
   extractCSS: true,
